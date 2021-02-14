@@ -20,7 +20,7 @@ namespace sdds
         void readLabels();
         void printLabels();
         
-        LabelMaker(int NUM_labels);
+        LabelMaker(int LabelsNum);
         ~LabelMaker();
    };
 }
