@@ -28,7 +28,7 @@ namespace sdds
     void LabelMaker::readLabels()
     {
         cout << "Enter " << NUM_labels 
-                << " labels: " << endl;
+                << " labels:" << endl;
 
         int x;
 
