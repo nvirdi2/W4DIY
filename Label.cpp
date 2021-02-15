@@ -17,7 +17,7 @@ namespace sdds
 
     void Label::readLabel()
     {
-        m_contentName = new char[71];
+        m_contentName = new char[71];  //holds 70 characters 
 
         cin.getline(m_contentName, 71);
     }
@@ -63,7 +63,9 @@ namespace sdds
             cout << frame[3] << endl;
             cout << frame[6];
 
-            for(int i = 0; i<strLen(m_contentName)+2; i++)
+            int i;
+            
+            for(i = 0; i < strLen(m_contentName) + 2; i++)
             {
                 cout << frame[5];
             }
