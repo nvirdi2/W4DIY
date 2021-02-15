@@ -7,7 +7,7 @@
 
 #include <iostream>
 #include <iomanip>
-#include "cstring.h"
+#include "cstring.h"   // using strLen, strCpy and strCmp 
 #include "LabelMaker.h"
 using namespace std;
 
